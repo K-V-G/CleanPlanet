@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".initialView"
+    android:background = "@drawable/main_logo">
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="328dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/company_name"
+        android:textColor="@color/color_text_on_main_view"
+        android:textSize="24sp"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/headlineMainView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/headline_main_view"
+        android:textColor="@color/color_text_on_main_view"
+        android:textSize="32sp"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/companyName" />
+
+    <TextView
+        android:id="@+id/descriptionMainView"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/description_main_view"
+        android:textColor="@color/color_text_on_main_view"
+        android:textSize="13sp"
+        app:fontFamily="@font/lora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headlineMainView" />
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/button_main_view"
+        app:backgroundTint="@color/color_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionMainView"
+        app:toggleCheckedStateOnClick="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

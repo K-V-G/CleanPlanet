@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">cleanPlanet</string>
+    <string name="company_name">KWG</string>
+    <string name="headline_main_view">Давайте изменим \nэтот мир вместе</string>
+    <string name="description_main_view">Приложение, которое позволит вам найти точки приема вторсырья, \nа также, советы по экологии</string>
+    <string name="button_main_view">Давайте начнем изменение этого мира</string>
+    <string name="authorization_welcome">Добро пожаловать</string>
+    <string name="network_acc">Используйте для входа следующие \nсоциальные сети:</string>
+    <string name="or">или</string>
+    <string name="oops">Ууупс, что-то пошло не так</string>
+    <string name="mobilePhoneAuthorizationView">Адресс электронной почты</string>
+    <string name="passwordAuthorizationView">Пароль</string>
+    <string name="registrationButtonOnAuthorizationView">Регистрация</string>
+    <string name="loginButtonOnAuthorizationView">Войти</string>
+    <string name="userForgotPassword">Забыли пароль?</string>
+    <string name="politics">Политика конфидекциальности</string>
+    <string name="company_app">KWG App</string>
+    <string name="registrationViewComeBacKButton">Назад к странице \nавторизации</string>
+    <string name="registrationViewDescription">Регистрация</string>
+    <string name="registrationUserName">Имя пользователя</string>
+    <string name="repeatPassword">Повторите пароль</string>
+    <string name="registrationButton">Зарегестрироваться</string>
+</resources>

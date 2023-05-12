@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139940943840",
+    "firebase_url": "https://clean-planet-68bd6-default-rtdb.firebaseio.com",
+    "project_id": "clean-planet-68bd6",
+    "storage_bucket": "clean-planet-68bd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139940943840:android:2f71f53bfe412ba1fabd85",
+        "android_client_info": {
+          "package_name": "com.example.cleanplanet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139940943840-il4nneuv3euqphv2je3fj8a40p5qs1dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cleanplanet",
+            "certificate_hash": "d92f6fdbb5c2576b41d95fab547d0a42f02e53f3"
+          }
+        },
+        {
+          "client_id": "139940943840-78au15ev619br3b03gpvnmosq2c1016a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4l3k4QyaeKNdoa_2f9IZUJ8ap89iyZbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139940943840-78au15ev619br3b03gpvnmosq2c1016a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
